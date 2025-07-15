@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\CAP\\OppoTrain1\\Assignment\\week1\\day1\\Day1\\day1\\",
+  "WorkspaceRootPath": "D:\\CAP\\OppoTrain1\\Assignment\\week1\\day1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\CAP\\OppoTrain1\\Assignment\\week1\\day1\\Day1\\day1\\home.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\CAP\\OppoTrain1\\Assignment\\week1\\day1\\home.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:home.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -24,9 +24,9 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "home.cpp",
-              "DocumentMoniker": "D:\\CAP\\OppoTrain1\\Assignment\\week1\\day1\\Day1\\day1\\home.cpp",
+              "DocumentMoniker": "D:\\CAP\\OppoTrain1\\Assignment\\week1\\day1\\home.cpp",
               "RelativeDocumentMoniker": "home.cpp",
-              "ToolTip": "D:\\CAP\\OppoTrain1\\Assignment\\week1\\day1\\Day1\\day1\\home.cpp",
+              "ToolTip": "D:\\CAP\\OppoTrain1\\Assignment\\week1\\day1\\home.cpp",
               "RelativeToolTip": "home.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
