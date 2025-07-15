@@ -1,5 +1,7 @@
 # C++ Data Structures Implementation
-day1
+
+## day1
+
 This repository contains C++ implementations of fundamental data structures, including:
 - Dynamic Array
 - Singly Linked List
@@ -11,8 +13,6 @@ This repository contains C++ implementations of fundamental data structures, inc
 - [Dynamic Array](#dynamic-array)
 - [Singly Linked List](#singly-linked-list)
 - [Stack](#stack)
-- [Compilation and Usage](#compilation-and-usage)
-- [Progress Checklist](#progress-checklist)
 
 ---
 
@@ -79,7 +79,7 @@ A stack is a Last-In, First-Out (LIFO) data structure. Two versions are provided
 - `isEmpty()`: Checks if the stack is empty.
 - `print()`: Prints all elements from top to bottom.
 
-day2 
+# day2 
 
 
 This repository contains C++ implementations of fundamental data structures, including:
@@ -94,7 +94,6 @@ This repository contains C++ implementations of fundamental data structures, inc
 - [Queue (Linked List Implementation)](#queue-linked-list-implementation)
 - [Doubly Linked List](#doubly-linked-list)
 - [Circular Linked List](#circular-linked-list)
-- [Compilation and Usage](#compilation-and-usage)
 
 ## 📦 Queue (Array Implementation)
 
