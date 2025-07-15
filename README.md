@@ -13,7 +13,6 @@ This repository contains C++ implementations of fundamental data structures, inc
 - [Stack](#stack)
 - [Compilation and Usage](#compilation-and-usage)
 - [Progress Checklist](#progress-checklist)
-- [Author and License](#author-and-license)
 
 ---
 
