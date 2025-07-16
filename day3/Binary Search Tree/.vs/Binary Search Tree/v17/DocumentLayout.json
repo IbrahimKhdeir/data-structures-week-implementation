@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\CAP\\OppoTrain1\\Assignment\\week1\\day3\\Binary Search Tree\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0417CD03-6514-44F8-B379-BCCEFBAB7A20}|Binary Search Tree.vcxproj|D:\\CAP\\OppoTrain1\\Assignment\\week1\\day3\\Binary Search Tree\\bst.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0417CD03-6514-44F8-B379-BCCEFBAB7A20}|Binary Search Tree.vcxproj|solutionrelative:bst.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0417CD03-6514-44F8-B379-BCCEFBAB7A20}|Binary Search Tree.vcxproj|D:\\CAP\\OppoTrain1\\Assignment\\week1\\day3\\Binary Search Tree\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0417CD03-6514-44F8-B379-BCCEFBAB7A20}|Binary Search Tree.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "bst.cpp",
+              "DocumentMoniker": "D:\\CAP\\OppoTrain1\\Assignment\\week1\\day3\\Binary Search Tree\\bst.cpp",
+              "RelativeDocumentMoniker": "bst.cpp",
+              "ToolTip": "D:\\CAP\\OppoTrain1\\Assignment\\week1\\day3\\Binary Search Tree\\bst.cpp",
+              "RelativeToolTip": "bst.cpp",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAHQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-07-16T22:04:20.319Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "main.cpp",
+              "DocumentMoniker": "D:\\CAP\\OppoTrain1\\Assignment\\week1\\day3\\Binary Search Tree\\main.cpp",
+              "RelativeDocumentMoniker": "main.cpp",
+              "ToolTip": "D:\\CAP\\OppoTrain1\\Assignment\\week1\\day3\\Binary Search Tree\\main.cpp",
+              "RelativeToolTip": "main.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-07-16T22:03:19.593Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\CAP\\OppoTrain1\\Assignment\\week1\\day3\\Binary Tree\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AAC296FB-CCE8-4EA5-95B1-D41BD16A2945}|day3.vcxproj|D:\\CAP\\OppoTrain1\\Assignment\\week1\\day3\\Binary Tree\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{AAC296FB-CCE8-4EA5-95B1-D41BD16A2945}|day3.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\abrah\\AppData\\Local\\Temp\\6a8233fd-e14c-48f4-a575-9dc7f412733c_data_structures_cpp (1).zip.33c\\docs\\usage_bt_example.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\abrah\\AppData\\Local\\Temp\\f7242b0a-f3da-4890-a7de-0ff2a608fcc6_data_structures_cpp (1).zip.cc6\\data_structures\\binary_tree\\binary_tree.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\abrah\\AppData\\Local\\Temp\\9a5c33a8-8539-4a83-9f5e-1e235a66a1fb_data_structures_cpp (1).zip.1fb\\data_structures\\binary_tree\\binary_tree.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.cpp",
+              "DocumentMoniker": "D:\\CAP\\OppoTrain1\\Assignment\\week1\\day3\\Binary Tree\\main.cpp",
+              "RelativeDocumentMoniker": "main.cpp",
+              "ToolTip": "D:\\CAP\\OppoTrain1\\Assignment\\week1\\day3\\Binary Tree\\main.cpp*",
+              "RelativeToolTip": "main.cpp*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-07-16T21:56:56.997Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "usage_bt_example.cpp",
+              "DocumentMoniker": "C:\\Users\\abrah\\AppData\\Local\\Temp\\6a8233fd-e14c-48f4-a575-9dc7f412733c_data_structures_cpp (1).zip.33c\\docs\\usage_bt_example.cpp",
+              "ToolTip": "C:\\Users\\abrah\\AppData\\Local\\Temp\\6a8233fd-e14c-48f4-a575-9dc7f412733c_data_structures_cpp (1).zip.33c\\docs\\usage_bt_example.cpp [Read Only]",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-07-16T21:54:46.373Z",
+              "EditorCaption": " [Read Only]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "binary_tree.cpp",
+              "DocumentMoniker": "C:\\Users\\abrah\\AppData\\Local\\Temp\\f7242b0a-f3da-4890-a7de-0ff2a608fcc6_data_structures_cpp (1).zip.cc6\\data_structures\\binary_tree\\binary_tree.cpp",
+              "ToolTip": "C:\\Users\\abrah\\AppData\\Local\\Temp\\f7242b0a-f3da-4890-a7de-0ff2a608fcc6_data_structures_cpp (1).zip.cc6\\data_structures\\binary_tree\\binary_tree.cpp [Read Only]",
+              "ViewState": "AgIAAH4AAAAAAAAAAAAAAAYAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-07-16T21:48:40.4Z",
+              "EditorCaption": " [Read Only]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "binary_tree.cpp",
+              "DocumentMoniker": "C:\\Users\\abrah\\AppData\\Local\\Temp\\9a5c33a8-8539-4a83-9f5e-1e235a66a1fb_data_structures_cpp (1).zip.1fb\\data_structures\\binary_tree\\binary_tree.cpp",
+              "ToolTip": "C:\\Users\\abrah\\AppData\\Local\\Temp\\9a5c33a8-8539-4a83-9f5e-1e235a66a1fb_data_structures_cpp (1).zip.1fb\\data_structures\\binary_tree\\binary_tree.cpp [Read Only]",
+              "ViewState": "AgIAAHIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-07-16T21:48:10.095Z",
+              "EditorCaption": " [Read Only]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
