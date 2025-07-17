@@ -220,6 +220,53 @@ Tree traversal algorithms are methods for visiting each node in a tree data stru
 - `preorderTraversal(visit)`: Visits nodes in the order: root -> left subtree -> right subtree. Useful for creating a prefix expression of the tree.
 - `postorderTraversal(visit)`: Visits nodes in the order: left subtree -> right subtree -> root. Useful for deleting the tree or generating a postfix expression.
 
-### Usage Example (main.cpp)
 
-To test both Binary Tree and Binary Search Tree implementations along with their traversal algorithms, you can use the `main.cpp` file provided previously. It demonstrates insertion, search, removal, and all three traversal methods for both tree types.
+# day4
+
+This repository contains C++ implementations of fundamental data structures, including:
+- Hash Table (with collision handling)
+- Min Heap
+- Basic Graph (adjacency list representation)
+
+## 📑 Table of Contents
+- [Hash Table](#hash-table)
+- [Min Heap](#min-heap)
+- [Basic Graph](#basic-graph)
+
+## 🔑 Hash Table
+
+A hash table is a data structure that implements an associative array abstract data type, a structure that can map keys to values. A hash table uses a hash function to compute an index into an array of buckets or slots, from which the desired value can be found.
+
+### 📂 Implementation
+- `HashTable.cpp`: Contains the class definition and implementation for `HashTable`.
+
+### 🚀 Features
+- `insert(key)`: Inserts a key into the hash table.
+- `remove(key)`: Removes a key from the hash table.
+- `search(key)`: Searches for a key in the hash table.
+- `display()`: Displays the contents of the hash table.
+
+## ⛰️ Min Heap
+
+A min-heap is a complete binary tree in which the value in each node is less than or equal to the values in its children. The root node always contains the smallest value in the heap.
+
+### 📂 Implementation
+- `MinHeap.cpp`: Contains the class definition and implementation for `MinHeap`.
+
+### 🚀 Features
+- `insert(value)`: Inserts a new value into the min-heap.
+- `extractMin()`: Removes and returns the minimum value from the min-heap.
+- `peekMin()`: Returns the minimum value without removing it.
+- `isEmpty()`: Checks if the min-heap is empty.
+- `display()`: Displays the elements of the min-heap.
+
+## 📊 Basic Graph (Adjacency List Representation)
+
+A graph is a non-linear data structure consisting of nodes (vertices) and edges. An adjacency list representation is a collection of unordered lists used to represent a finite graph. Each list describes the set of neighbors of a vertex.
+
+### 📂 Implementation
+- `Graph.cpp`: Contains the class definition and implementation for `Graph`.
+
+### 🚀 Features
+- `addEdge(src, dest)`: Adds an edge between two vertices.
+- `printGraph()`: Prints the adjacency list representation of the graph.
