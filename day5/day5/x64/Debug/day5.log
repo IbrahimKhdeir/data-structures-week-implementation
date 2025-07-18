@@ -1,0 +1,4 @@
+﻿  Trie.cpp
+  LINK : D:\CAP\OppoTrain1\Assignment\week1\day5\x64\Debug\day5.exe not found or not built by the last incremental link; performing full link
+Trie.obj : error LNK2005: main already defined in DisjointSet.obj
+D:\CAP\OppoTrain1\Assignment\week1\day5\x64\Debug\day5.exe : fatal error LNK1169: one or more multiply defined symbols found

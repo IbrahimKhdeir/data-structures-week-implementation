@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\CAP\\OppoTrain1\\Assignment\\week1\\day5\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{179E3067-2BAD-4F38-A6F7-C34556BD8F6A}|day5.vcxproj|D:\\CAP\\OppoTrain1\\Assignment\\week1\\day5\\Trie.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{179E3067-2BAD-4F38-A6F7-C34556BD8F6A}|day5.vcxproj|solutionrelative:Trie.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{179E3067-2BAD-4F38-A6F7-C34556BD8F6A}|day5.vcxproj|D:\\CAP\\OppoTrain1\\Assignment\\week1\\day5\\DisjointSet.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{179E3067-2BAD-4F38-A6F7-C34556BD8F6A}|day5.vcxproj|solutionrelative:DisjointSet.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Trie.cpp",
+              "DocumentMoniker": "D:\\CAP\\OppoTrain1\\Assignment\\week1\\day5\\Trie.cpp",
+              "RelativeDocumentMoniker": "Trie.cpp",
+              "ToolTip": "D:\\CAP\\OppoTrain1\\Assignment\\week1\\day5\\Trie.cpp",
+              "RelativeToolTip": "Trie.cpp",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAcwFwAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-07-18T22:35:06.55Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DisjointSet.cpp",
+              "DocumentMoniker": "D:\\CAP\\OppoTrain1\\Assignment\\week1\\day5\\DisjointSet.cpp",
+              "RelativeDocumentMoniker": "DisjointSet.cpp",
+              "ToolTip": "D:\\CAP\\OppoTrain1\\Assignment\\week1\\day5\\DisjointSet.cpp",
+              "RelativeToolTip": "DisjointSet.cpp",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-07-18T22:34:04.534Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
