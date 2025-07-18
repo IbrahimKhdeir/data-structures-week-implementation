@@ -265,9 +265,89 @@ A min-heap is a complete binary tree in which the value in each node is less tha
 
 A graph is a non-linear data structure consisting of nodes (vertices) and edges. An adjacency list representation is a collection of unordered lists used to represent a finite graph. Each list describes the set of neighbors of a vertex.
 
+
+## day5
+
+This document provides an in-depth explanation and C++ implementation details for two fundamental data structures:
+
+- Disjoint Set Union (DSU)
+- Trie (Prefix Tree)
+
+These structures are crucial for solving various problems efficiently, particularly in competitive programming and algorithm design.
+
+## 📑 Table of Contents
+- [Disjoint Set Union (DSU)](#disjoint-set-union-dsu)
+- [Trie (Prefix Tree)](#trie-prefix-tree)
+
+
+
+
+## 🔗 Disjoint Set Union (DSU)
+
+Disjoint Set Union (DSU), also known as Union-Find, is a data structure that stores a collection of disjoint (non-overlapping) sets. It provides two primary operations:
+
+- **`find`**: Determines which set a particular element belongs to. It returns a 'representative' (or 'root') of that set.
+- **`unite` (or `union`)**: Merges two sets into a single set.
+
+DSU is widely used in algorithms that involve grouping elements, such as Kruskal's algorithm for Minimum Spanning Tree, detecting cycles in graphs, and network connectivity problems. The efficiency of DSU comes from two optimizations: **Path Compression** and **Union by Rank/Size**.
+
+### 📂 Implementation Details
+
+The provided `DisjointSet.cpp` implements the Disjoint Set Union data structure with both path compression and union by rank optimizations. These optimizations significantly reduce the time complexity of `find` and `unite` operations, making them nearly constant time (amortized).
+
+- **`parent` vector**: This vector stores the parent of each element. Initially, each element is its own parent (representing individual sets).
+- **`rank` vector**: This vector stores the 'rank' of each set, which is an upper bound on the height of the tree. Union by rank aims to keep the trees flat, preventing skewed trees that would degrade performance.
+
+### 🚀 Features
+
+- **`DisjointSet(int size)`**: Constructor that initializes `size` number of elements, each in its own set. Each element `i` is initially its own parent (`parent[i] = i`), and their ranks are 0.
+
+- **`find(int x)`**: This operation returns the representative of the set containing `x`. It employs **path compression**, which flattens the tree by making every node on the path from `x` to the root point directly to the root. This optimizes future `find` operations for elements in the same path.
+
+- **`unite(int x, int y)`**: This operation merges the sets containing `x` and `y`. It first finds the roots of `x` and `y`. If they are already in the same set, no action is taken. Otherwise, it performs **union by rank**: the tree with the smaller rank is attached under the root of the tree with the larger rank. If ranks are equal, one tree is arbitrarily attached to the other, and the rank of the new root is incremented.
+
+- **`isConnected(int x, int y)`**: A utility function that checks if two elements `x` and `y` belong to the same set by comparing their root representatives obtained from the `find` operation.
+
 ### 📂 Implementation
 - `Graph.cpp`: Contains the class definition and implementation for `Graph`.
 
 ### 🚀 Features
 - `addEdge(src, dest)`: Adds an edge between two vertices.
 - `printGraph()`: Prints the adjacency list representation of the graph.
+
+
+
+
+
+
+## 🌳 Trie (Prefix Tree)
+
+A Trie, also known as a Prefix Tree, is a tree-like data structure used to store a dynamic set of strings where the keys are usually strings. Unlike a binary search tree, nodes in the Trie do not store the key directly. Instead, the position of a node in the tree defines the key with which it is associated. All children of a node share a common prefix of the string associated with that node.
+
+Tries are particularly efficient for operations involving prefixes, such as:
+
+- **Autocompletion**: Suggesting words as a user types.
+- **Spell Checking**: Identifying misspelled words.
+- **Longest Common Prefix**: Finding the longest common prefix among a set of strings.
+- **Dictionary Search**: Quickly checking if a word exists in a dictionary.
+
+### 📂 Implementation Details
+
+The provided `Trie.cpp` implements a basic Trie data structure. Each node in the Trie (`TrieNode`) contains:
+
+- **`children[26]`**: An array of pointers to `TrieNode`s, representing the next possible characters (a-z). For each character, there is a corresponding child node.
+- **`isEndOfWord`**: A boolean flag that indicates whether the current node marks the end of a valid word.
+
+### 🚀 Features
+
+- **`TrieNode()`**: Constructor for `TrieNode` that initializes all children pointers to `nullptr` and `isEndOfWord` to `false`.
+
+- **`Trie()`**: Constructor for the `Trie` class that initializes the `root` node.
+
+- **`insert(const string& word)`**: Inserts a given `word` into the Trie. It traverses the Trie character by character, creating new nodes if a path does not exist. The `isEndOfWord` flag of the last character's node is set to `true`.
+
+- **`search(const string& word)`**: Searches for a given `word` in the Trie. It traverses the Trie based on the characters of the word. If at any point a character's path does not exist or the `isEndOfWord` flag of the final node is `false`, the word is not found.
+
+- **`startsWith(const string& prefix)`**: Checks if any word in the Trie starts with the given `prefix`. It traverses the Trie based on the characters of the prefix. If the entire prefix can be traversed, it means at least one word starts with that prefix.
+
+- **`~Trie()`**: Destructor for the `Trie` class that deallocates all dynamically allocated `TrieNode`s to prevent memory leaks. It uses a private helper function `clear` for recursive deletion.
